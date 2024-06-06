@@ -1,5 +1,5 @@
 function addPunctuation(punctuation) {
-  function(word) {
+  return function(word) {
     return word + punctuation;
   }
 }
