@@ -4,10 +4,12 @@
 let match = "A Wonderful Person!";
 
 switch (match) {
-  case "anyone":
-  case "Town Resident":
   case "A Wonderful Person!":
     console.log("here we go!");
+  case "anyone":
+    console.log("with anyone");
+  case "Town Resident":
+    console.log("in town");
     break;
   case "Bad News":
   default:
